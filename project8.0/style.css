@@ -1,0 +1,94 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 90%;
+    height: 100vh;
+    background-image: url(hogwarts.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    padding: 10px 8%;
+
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 10px 0;
+    justify-content: space-between;
+   
+}
+
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 200px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    margin: 20px;
+
+}
+
+nav ul li a:hover {
+    text-decoration: ;
+}
+
+.button{
+    background-color: white;
+  color: black;
+  padding: 10px 30px;
+  border-radius: 25px;
+}
+
+.cards {
+    flex-basis: 50%;
+}
+
+.card1 {
+
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(game.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 10%;
+    padding-left: 30%;
+    padding-right: 50%;
+    
+   
+}
+
+.card1:hover {
+    transform: translateY(-10px);
+}
+
+.card1>h1 { 
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+    position: absolute;
+  bottom: 10px;
+  right: 16px;
+  font-size: 40px;
+}

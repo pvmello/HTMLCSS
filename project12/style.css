@@ -200,7 +200,7 @@ header {
     text-align: center;
     width: 66%;
     margin: 100px auto;
-    border-radius: 10px;
+    border-radius: 50px pink;
     bottom: -1400PX;
     position: absolute;
     left: 250px;
@@ -242,4 +242,31 @@ header {
     transform: translateY(4px);
   }
 
- 
+ div.square {
+    height: 300px;
+    border: 1px solid palevioletred;
+    border-radius: 20px;
+    width: 300px;
+    margin: 10px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+ }
+
+ div#q1 {
+    background-image: url(usagi.png);
+    background-position: center center;
+    background-size: 100px;
+ }
+
+ div#q2 {
+   background-image: url(chibimoon.jpg);
+   background-position: center center;
+   background-size: 400px;
+}
+
+div#q3 {
+   background-image: url(chibichibi.jpg);
+   background-position: center center;
+   background-size: 200px;
+}

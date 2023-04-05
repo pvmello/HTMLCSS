@@ -6,19 +6,26 @@ div.square {
     background-image: url(images/imagens-cap19/wallpaper003.jpg);
 }
 
-
-div#q1 {
-    background-position: left top;
-}
-
-div#q2 {
-    background-position: left center;
-}
-
-div#q3 {
-    background-position: right bottom;
-}
-
-div#q4 {
+body {
+    
+    background-color: black;
+    background-image: url(images/imagens-cap19/wallpaper002.jpg);
+    background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
+}
+
+main {
+   
+    background-color: #fff;
+    width: 500px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid darkblue;
+    border-radius: 15px;
+
+}
+
+h1 {
+    text-align: center;
 }

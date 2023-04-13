@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    
+font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fasthand&family=Poppins:ital,wght@1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fasthand&family=Poppins:ital,wght@1,600;1,700;1,800&display=swap');
+
+.logo{
+    color: lightseagreen;
+    font-family: 'Fasthand', cursive;
+    font-weight: 600;
+    font-size: 4.4rem;
+    text-shadow: 2px 2px blue;
+    position: relative;
+    left: 120px;
+
+}
+
+.nav a{
+    color: pink;
+    font-size: 20px;
+    padding: 10px 20px;
+    font-weight: 500;
+    
+    
+}
+
+body {
+    
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: lightcyan url(kh.jpg) center center no-repeat fixed;
+    background-size: contain;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav a{
+    color: darkcyan;
+    font-size: 20px;
+    padding: 10px 20px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;   
+}
+
+.nav a:hover{
+    color: lightgreen;
+    transition: .4s;
+
+}
+
+#menu-icon { 
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+
+.btn {
+
+    display: inline-block;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: 10px 10px lightblue;
+    margin-left: 30px;
+    position: relative;
+    left: 150px;
+    
+}

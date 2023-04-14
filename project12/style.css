@@ -1,274 +1,66 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    list-style: none;
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fasthand&family=Passion+One:wght@400;700;900&family=Poppins:ital,wght@1,600;1,700;1,800&family=Sriracha&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fasthand&family=Poppins:ital,wght@1,600;1,700;1,800&display=swap');
 
 body {
-    background-image: url(sm.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-.logo{
-    color: pink;
-    font-family: 'Fasthand', cursive;
-    font-weight: 600;
-    font-size: 5.4rem;
-    text-shadow: 2px 2px gray;
-    position: relative;
-    left: -100px;
-
-}
-
-.nav {
-    display: flex;
-    
-}
-
-.nav a{
-    color: pink;
-    font-size: 20px;
-    padding: 10px 20px;
-    font-weight: 500;
-    
-    
-}
-
-.nav a:hover{
-    color: purple;
-    transition: .4s;
-
-}
-
-#menu-icon { 
-    font-size: 2rem;
-    cursor: pointer;
-    display: none;
-}
-
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    color: #fff;
-    border-radius: 1rem;
-    background-color: aliceblue;
-    box-shadow: 10px 10px lightblue;
-    margin-left: 10px;
-}
-
-header {
-    position: fixed;
-    top: 50;
-    right: 0;
+    background-image: url(esm.jpeg);
+    background-position: fixed;
+    background-size: cover;
+    height: 100vh;
     width: 100%;
-    z-index: 1000;
-    display:flex;
+    position: relative;
+}
+
+.logo {
+    width: 600px;
+    cursor: pointer;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    
+}
+
+nav ul {
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    font-family: 'Sriracha', cursive;
+    padding-right: 60px;
+    padding-top: 50px;
+ 
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+
+}
+
+nav ul li a{
+    color: rgb(212, 159, 95);
+    text-decoration: none;
+    position: relative;
+    margin: 30px;
+
+}
+
+nav ul li a:hover {
+    transform: scale(1.2) translateY(10px);
+    transition: .4s;
+}
+
+.btn { 
+    
+    display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 30px 170px;
-    
-}
-
-.home-img img {
-    max-width: 100%;
-    width: 400px;
-    height: auto;
-    position: relative;
-    top: 200px;
-    left: 750px;
-    
-    
-}
-
-  .text h1 {
-    font-family: 'Fasthand', cursive;
-    font-size: 50px;
-    float: right;
-    position: relative;
-    right: 130px;
-    top: 150px;
-  }
-
-  .text h2 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    float: right;
-    position: relative;
-    right: -120px;
-    top: 220px;
-  }
-
-  .home-img p {
-        background-color: plum;
-        width: 25%;
-        padding-left: 15px;
-        margin-left: 15px;
-        float: right;
-        font-style: italic;
-        border-radius: 12px;
-        padding: 10px 20px;
-        position: relative;
-        right: 100px;
-        bottom: 90px;
-        box-shadow: aliceblue;
-            
-  }
-
- .about img {
-    max-width: 100%;
-    width: 400px;
-    height: auto;
-    position: relative;
-    top: 500px;
-    left: 100px;
-    border-radius: 20px;
- }
-
- .about-text span {
-    color: palevioletred;
-    text-shadow: 2px 2px gray;
-    font-size: 5.3rem;
-    font-family: 'Fasthand', cursive;
-    position: absolute;
-    right: 700px;
-    bottom: -200px;
-    font-weight: 600;
- }
-
- .about-text h2 {
-    
-    position: absolute;
-    right: 630px;
-    bottom: -250px;
-    font-family: 'Poppins', sans-serif;
-    background-color: #fff;
-    border-radius: 12px;
-    padding: 5px;
-    color: purple;
-
- }
-
- .about-text p {
-    left: -180px;
-    bottom: -100px;
-    font-weight: 200;
-    width: 800px;
-    height: 40vh;
-    text-align: center;
- }
-
- .btn2 {
-    display: inline-block;
     padding: 10px 20px;
-    color: pink;
-    font-size: 1.5rem;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    border-radius: 12px;
-    background-color: aliceblue;
-    box-shadow: 0 9px lightblue;
-    margin-left: 10px;
-    position: relative;
-    bottom: -320px;
-    right: -830px;
- }
-
- .btn2:hover {
-    padding-right: 25px;
-    background-color: palevioletred;
- }
-
- .btn2:active {
-    background-color: plum;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-  }
-
-  .cta {
-    background: papayawhip;
-    padding: 70px 0;
-    text-align: center;
-    width: 66%;
-    margin: 100px auto;
-    border-radius: 50px pink;
-    bottom: -1400PX;
-    position: absolute;
-    left: 250px;
-    font-family: 'Poppins', sans-serif;
-}
-
-.btn3 {
-    display: inline-block;
-    padding: 10px 20px;
-    color: pink;
-    font-size: 1.5rem;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    border-radius: 12px;
-    background-color: aliceblue;
-    box-shadow: 0 9px lightblue;
-    margin-left: 10px;
-    position: relative;
-    bottom: -20px;
-    right: 10px;
- }
-
- .cta span{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-style: italic;
-    font-size: 30px;
- }
-
- .btn3:hover {
-    padding-right: 25px;
-    background-color: palevioletred;
- }
-
- .btn3:active {
-    background-color: plum;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-  }
-
- div.square {
-    height: 300px;
-    border: 1px solid palevioletred;
     border-radius: 20px;
-    width: 300px;
-    margin: 10px;
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
- }
-
- div#q1 {
-    background-image: url(usagi.png);
-    background-position: center center;
-    background-size: 100px;
-    
- }
-
- div#q2 {
-   background-image: url(chibimoon.jpg);
-   background-position: center center;
-   background-size: 400px;
-}
-
-div#q3 {
-   background-image: url(chibichibi.jpg);
-   background-position: center center;
-   background-size: 200px;
+    background-color: white;
+    box-shadow: 5px 5px black;
 }

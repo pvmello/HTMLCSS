@@ -12,6 +12,7 @@ body {
     background-image: url(esm.jpeg);
     background-position: fixed;
     background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
     width: 100%;
     position: relative;
@@ -28,7 +29,7 @@ body {
 
 nav ul {
     list-style: none;
-    width: 100%;
+    width: 95%;
     text-align: right;
     font-family: 'Sriracha', cursive;
     padding-right: 60px;
@@ -63,4 +64,98 @@ nav ul li a:hover {
     border-radius: 20px;
     background-color: white;
     box-shadow: 5px 5px black;
+}
+
+.home {
+    display:contents;
+    min-height: 90vh;
+    align-items: center;
+}
+
+.home h1 {
+    color: bisque;
+    text-shadow: 5px 5px darkmagenta;
+    font-size: 40px;
+    font-family: 'Sriracha', cursive;
+    text-align: justify;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+
+.home p {
+    background-color: plum;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding: 25px;
+    width: 18vw;
+    border-radius: 10px;
+    box-shadow: 5px 5px palegoldenrod;
+    font-size: 20px;
+    font-family: 
+}
+
+.text2 h2 {
+    text-align: center;
+    font-family: 'Sriracha', cursive;
+    text-shadow: 2px 2px darkmagenta;
+    color: palevioletred;
+    background-color: white;
+    margin-top: 70px;
+    
+}
+
+.text2 p {
+    text-align: center;
+    font-family: 'Passion One', cursive;
+    margin-top: 10px;
+    background-color: azure;
+    border-radius: 20px 10px;
+    padding: 20px;
+    width: 90vw;
+    margin-left: 50px;
+    
+}
+
+div.square {
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 20px;
+    position: relative;
+    left: 250px;
+    
+    
+}
+
+div#q1 {
+    background-image: url(usagi.png);
+    cursor: pointer;
+    background-position: center;
+    background-size: 300px;
+}
+
+div#q2 {
+    background-image: url(chibichibi.jpg);
+    cursor: pointer;
+    background-position: center;
+    background-size: 300px;
+}
+
+div#q3 {
+    background-image: url(chibi.jpg);
+    cursor: pointer;
+    background-position: center;
+    background-size: 300px;
+}
+
+.text2 span {
+    font-family: 'Sriracha', cursive;
+    font-size: 30px;
+    color: blueviolet;
+    background-color: azure;
+    text-shadow: 1px 2px black;
 }

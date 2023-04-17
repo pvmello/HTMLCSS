@@ -159,3 +159,89 @@ div#q3 {
     background-color: azure;
     text-shadow: 1px 2px black;
 }
+
+div.square2 {
+    height: 300px;
+    width: 950px;
+    display: inline-block;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 20px;
+    position: relative;
+    left: 260px;
+    
+    
+}
+
+div#q4 {
+    background-image: url(sm.jpg);
+    background-position: top center;
+    background-size: 1000px;
+}
+
+.btn2 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 0.5rem;
+    position: relative;
+    text-decoration: none;
+    color: peru;
+    left:700px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 2px 2px black;
+}
+
+.btn2:hover {
+    transform: scale(1.2) translateY(10px);
+    transition: .4s;
+
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.footer {
+    padding: 10px 0;
+}
+
+.col {
+    width: 25%;
+}
+
+.col h4{
+    font-size: 1.2rem;
+    color: purple;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.col h4::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 50px;
+    left: 0;
+    bottom: -8px;
+    background: #fff
+}
+
+.col ul li:not(last-child) {
+    margin-bottom: 10px;
+}
+
+.col ul li a{
+    color: #9897a9;
+    font-size: 1.1rem;
+    display: block;
+    text-transform: capitalize;
+    transition: .4s;
+}
+
+col ul li a:hover{
+    color: var(--text-color);
+    transform: translateX(-12px);
+}

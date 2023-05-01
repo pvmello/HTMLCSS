@@ -126,7 +126,7 @@
     align-items: center;
     margin: 30px 50px;
     cursor: pointer;
-    
+
   }
 
 .icon img {
@@ -147,5 +147,64 @@
     font-family:'Pacifico', cursive; 
   }
 
+.container {
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 200px;
+      float: right;
+      padding-right: 100px;
+}
 
+.img2 {
+    max-width: 700px;
+      max-height: 700px;
+      margin-bottom: 60px;
+      border: 1px solid;
+      
+      
+}
+
+.container2 {
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 500px;
+      float: left;
+      padding-left: 50px;
+
+}
+
+.container2 h2 {
+    margin-top: 20px;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+
+
+.add {
+    padding: 10px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+      background-color: #007bff;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      width: 600px;
+      
+}
+
+.add:hover {
+    background-color: #0062cc;
+}
 

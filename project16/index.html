@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Doc</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- file: index.html -->
+
+    <h1 id="title">How can we use Pokemon to teach science?</h1>
+    <p id="description">Please fill out this form with the required information</p>
+    <form id="survey-form" method="post" action='https://register-demo.freecodecamp.org'>
+
+    <fieldset>
+      <legend>Fill out with your information</legend>
+        <label for="first-name" id="name-label"> Name: <input id="name" name="name" type="text" placeholder="your name" required/></label>
+
+        <label for="email" id="email-label">Enter Your Email: <input id="email" name="email" type="email" placeholder="user@gmail.com" required /></label>
+
+        <label for="age" id="number-label">Age:<input id="number" name="number" type="number" min="10" max="100" placeholder="your age" required /></label>
+      </fieldset>
+      <fieldset>
+        <legend>How did you hear about us?</legend>
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">freeCodeCamp News</option>
+            <option value="2">freeCodeCamp YouTube Channel</option>
+            <option value="3">freeCodeCamp Forum</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+
+        <label for="bio">Tell us a bit about you:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="My favorite pokemon is..."></textarea>
+        </label>
+
+        </fieldset>
+
+        <fieldset>
+  <legend id="legend">What is your favorite Pokemon type?</legend>
+  <label>
+    <input type="radio" name="pokemon-type" value="grass">
+    Grass
+  </label>
+  <label>
+    <input type="radio" name="pokemon-type" value="fire">
+    Fire
+  </label>
+  <label>
+    <input type="radio" name="pokemon-type" value="water">
+    Water
+  </label>
+</fieldset>
+
+<fieldset>
+  <legend id="legend">Which of the following topics are you interested in?</legend>
+  <label>
+    <input type="checkbox" name="topic[]" value="biology">
+    Biology
+  </label>
+  <label>
+    <input type="checkbox" name="topic[]" value="chemistry">
+    Chemistry
+  </label>
+  <label>
+    <input type="checkbox" name="topic[]" value="physics">
+    Physics
+  </label>
+</fieldset>
+
+ <input type="submit" value="Submit" id="submit" />
+    
+    </form>
+
+</body>
+</html>
